@@ -1,0 +1,7 @@
+<!--
+<img [src]="coracaoVazio"><!--Property Bind - Atributo estabelecido com a variável do componente--
+<img [src]="coracaoVazio">
+<img [src]="coracaoVazio">
+-->
+<!-- Utilizando o ngFOR -->
+<img *ngFor="let coracao of coracoes" [src]="coracao.exibeCoracao()" />
